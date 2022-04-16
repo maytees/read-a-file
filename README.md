@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/maytees/spine/workflows/CI/badge.svg)](https://github.com/maytees/spine/actions)
 [![Coverage Status](https://coveralls.io/repos/github/maytees/spine/badge.svg?branch=main)](https://coveralls.io/github/maytees/spine?branch=main)
+[![Rust GitHub Template](https://img.shields.io/badge/Rust%20GitHub-Template-blue)](https://rust-github.github.io/)
 
 ## What is spine?
 
