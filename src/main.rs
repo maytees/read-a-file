@@ -10,7 +10,10 @@ fn main() {
 
     let mut source = String::new();
 
-    parse_commands(args, &mut source);
+    match parse_commands(args, &mut source) {
+        Err(e) => println!("{}", e),
+        _ => {}
+    }
 
     println!("{}", &source);
 }
@@ -20,6 +23,7 @@ fn parse_commands(args: Vec<String>, source: &mut String) -> Result<(), std::io:
         Some(cmd) => match cmd.as_str() {
             "hello" => commands::cmd_hello(args),
             _ => {
+                // Assume that the user passed a dir
                 let file_path: String = match args.get(1) {
                     Some(x) => x.clone(),
                     None => "nothing".to_string(),
