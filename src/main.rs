@@ -1,4 +1,3 @@
-use spine;
 use spine::commands;
 
 use std::env;
@@ -10,9 +9,8 @@ fn main() {
 
     let mut source = String::new();
 
-    match parse_commands(args, &mut source) {
-        Err(e) => println!("{}", e),
-        _ => {}
+    if let Err(e) = parse_commands(args, &mut source) {
+        println!("{}", e)
     }
 
     println!("{}", &source);
