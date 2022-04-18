@@ -8,17 +8,6 @@
 
 Spine is an up n' coming programming language that is planned to have a really easy to understand syntax, and a low learning curve. Spine should be a language that new programmers will learn to get the basics of programming, other than that, it shouldn't be used to build corprate level applications, unless if this project gets to that point. 
 
-## License
-
-Licensed under either of
-
- * Apache License, Version 2.0
-   ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
- * MIT license
-   ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
-
-at your option.
-
 ## Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
