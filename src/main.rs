@@ -2,14 +2,14 @@ use spine;
 use spine::commands;
 
 use std::env;
-use std::fs::{OpenOptions};
+use std::fs::OpenOptions;
 use std::io::Read;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
 
     let mut source = String::new();
-    
+
     parse_commands(args, &mut source);
 
     println!("{}", &source);
